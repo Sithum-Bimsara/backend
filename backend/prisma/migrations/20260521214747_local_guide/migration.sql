@@ -1,0 +1,31 @@
+-- CreateTable
+CREATE TABLE "Island" (
+    "id" TEXT NOT NULL,
+    "name" TEXT NOT NULL,
+    "categories" TEXT[],
+    "overview" TEXT NOT NULL,
+    "bestFor" TEXT NOT NULL,
+    "activities" TEXT[],
+    "marineLifeZones" TEXT NOT NULL,
+    "nightlife" TEXT NOT NULL,
+    "safetyText" TEXT NOT NULL,
+    "internetText" TEXT NOT NULL,
+    "transferDetails" TEXT NOT NULL,
+    "bestTimeMonths" TEXT[],
+    "bestTimeTextBest" TEXT,
+    "bestTimeTextAvoid" TEXT,
+    "bestTimeTextTips" TEXT,
+    "costLocal" DOUBLE PRECISION NOT NULL DEFAULT 0,
+    "costNonLocal" DOUBLE PRECISION NOT NULL DEFAULT 0,
+    "costFoodDrinks" DOUBLE PRECISION NOT NULL DEFAULT 0,
+    "costActivities" DOUBLE PRECISION NOT NULL DEFAULT 0,
+    "costExtra" DOUBLE PRECISION NOT NULL DEFAULT 0,
+    "sampleDay" JSONB,
+    "foodAndDrinkDeals" JSONB,
+    "insiderTips" TEXT[],
+    "images" TEXT[],
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT "Island_pkey" PRIMARY KEY ("id")
+);

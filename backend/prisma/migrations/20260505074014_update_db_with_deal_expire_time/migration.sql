@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "Unit" ADD COLUMN     "lockMinutes" INTEGER NOT NULL DEFAULT 15;
