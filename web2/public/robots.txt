@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://lushware.com/sitemap.xml
+
+# Disallow admin and private routes
+Disallow: /admin/
+Disallow: /merchant-dashboard/
+Disallow: /profile/
+Disallow: /bookings/
+Disallow: /my-deals/
+Disallow: /auth/
+Disallow: /onboarding/

@@ -1,0 +1,38 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  
+  <!-- Dark Background -->
+  <rect width="800" height="600" fill="#0B0F14"/>
+
+  <!-- Circle (moved up) -->
+  <path d="M400 180C344.772 180 300 224.772 300 280C300 335.228 344.772 380 400 380C455.228 380 500 335.228 500 280C500 224.772 455.228 180 400 180Z"
+        stroke="#2A2F3A"
+        stroke-width="18"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- Vertical line -->
+  <path d="M400 220V340"
+        stroke="#5A6270"
+        stroke-width="18"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- Horizontal line -->
+  <path d="M340 280H460"
+        stroke="#5A6270"
+        stroke-width="18"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- Text (also slightly moved up) -->
+  <text x="400" y="450"
+        text-anchor="middle"
+        fill="#8A93A3"
+        font-family="Arial, sans-serif"
+        font-size="22"
+        font-weight="600"
+        letter-spacing="2">
+    LUSHWARE DEALS
+  </text>
+
+</svg>

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@400;600&display=swap');
+@import "tailwindcss";
+
+:root {
+  --app-bg: #fdf5e9;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--app-bg);
+}
+
+@utility scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Hide floating elements when a modal is active */
+body.modal-active #floating-action-button {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(20px);
+}

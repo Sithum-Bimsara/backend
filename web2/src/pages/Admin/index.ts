@@ -1,0 +1,10 @@
+export { default as AdminDashboardPage } from "./AdminDashboardPage";
+export { default as AdminMerchantsPage } from "./AdminMerchantsPage";
+export { default as AdminMerchantDetailsPage } from "./AdminMerchantDetailsPage";
+export { default as AdminUsersPage } from "./AdminUsersPage";
+export { default as AdminUserDetailsPage } from "./AdminUserDetailsPage";
+export { default as AdminDealRequestsPage } from "./AdminDealRequestsPage";
+export { default as AdminModerationPage } from "./AdminModerationPage";
+export { default as AdminDealsPage } from "./AdminDealsPage";
+export { default as AdminDealDetailPage } from "./AdminDealDetailPage";
+export { default as AdminDealReviewsPage } from "./AdminDealReviewsPage";
